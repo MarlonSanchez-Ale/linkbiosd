@@ -38,38 +38,34 @@ const LinkBio: React.FC<LinkBioProps> = ({ Logo,
 
             {/* Enlaces a redes sociales */}
             <div className="space-y-3 w-full max-w-xs">
-                <div className="flex flex-row justify-between p-5 gap-5 bg-deep-purple-300 rounded-lg">
-                    <button onClick={() => window.open(UrlFacebook, '_blank')} className="block  text-white py-2 rounded-lg text-start font-medium">
+                <div onClick={() => window.open(UrlFacebook, '_blank')} className="flex flex-row justify-between p-5 gap-5 bg-deep-purple-300 rounded-lg">
+                    <p className="block  text-white py-2 text-start font-medium">
                         Seguínos en Facebook
-                    </button>
+                    </p>
                     <FaFacebook size={30} color="white" />
                 </div>
-                <div className="flex flex-row justify-between p-5 gap-5 bg-deep-purple-300 rounded-lg">
-
-                    <button onClick={() => window.open(UrlInstagram, '_blank')} className="block  text-white py-2 rounded-lg text-start font-medium">
+                <div onClick={() => window.open(UrlInstagram, '_blank')} className="flex flex-row justify-between p-5 gap-5 bg-deep-purple-300 rounded-lg">
+                    <p className="block  text-white py-2 text-start font-medium">
                         Seguínos en Instagram
-                    </button>
+                    </p>
                     <FaInstagram size={30} color="white" />
                 </div>
-                <div className="flex flex-row justify-between p-5 gap-5 bg-deep-purple-300 rounded-lg">
-
-                    <button onClick={() => window.open(UrlTiktok, '_blank')} className="block  text-white py-2 rounded-lg text-start font-medium">
+                <div onClick={() => window.open(UrlTiktok, '_blank')} className="flex flex-row justify-between p-5 gap-5 bg-deep-purple-300 rounded-lg">
+                    <p className="block  text-white py-2 text-start font-medium">
                         Seguínos en Tiktok
-                    </button>
+                    </p>
                     <FaTiktok size={30} color="white" />
                 </div>
-                <div className="flex flex-row justify-between p-5 gap-5 bg-deep-purple-300 rounded-lg">
-
-                    <button onClick={() => window.open(UrlDirection, '_blank')} className="block  text-white py-2 rounded-lg text-start font-medium">
+                <div onClick={() => window.open(UrlDirection, '_blank')} className="flex flex-row justify-between p-5 gap-5 bg-deep-purple-300 rounded-lg">
+                    <p className="block  text-white py-2 rounded-lg text-start font-medium">
                         Visitános en tienda
-                    </button>
+                    </p>
                     <FaStoreAlt size={30} color="white" />
                 </div>
-                <div className="flex flex-row justify-between p-5 gap-5 shadow-md bg-deep-purple-300 rounded-lg">
-
-                    <button onClick={() => window.open(UrlWhatsapp, '_blank')} className="block  text-white py-2  text-start font-medium">
+                <div onClick={() => window.open(UrlWhatsapp, '_blank')} className="flex flex-row justify-between p-5 gap-5 shadow-md bg-deep-purple-300 rounded-lg">
+                    <p className="block  text-white py-2  text-start font-medium">
                         Cotizá aquí
-                    </button>
+                    </p>
                     <FaWhatsapp size={30} color="white" />
                 </div>
             </div>
