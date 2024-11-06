@@ -75,7 +75,7 @@ const LinkBio: React.FC<LinkBioProps> = ({ Logo,
             </div>
 
             {/* Información adicional */}
-            <div className="text-center mt-8 text-gray-600 text-sm">
+            <div className="text-center mt-8 text-gray-200 text-lg">
                 <p>Gracias por preferirnos</p>
             </div>
         </div>
