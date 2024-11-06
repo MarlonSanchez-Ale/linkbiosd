@@ -61,7 +61,7 @@ const LinkBio: React.FC<LinkBioProps> = ({ Logo,
                 <div className="flex flex-row justify-between p-5 gap-5 bg-deep-purple-300 rounded-lg">
 
                     <button onClick={() => window.open(UrlDirection, '_blank')} className="block  text-white py-2 rounded-lg text-start font-medium">
-                        Visitános en nuestra tienda
+                        Visitános en tienda
                     </button>
                     <FaStoreAlt size={30} color="white" />
                 </div>
