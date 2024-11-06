@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes  } from 'react-router-dom';
 import Oldmanwinters from './components/pages/Oldmanwinters';
 import Home from './components/pages/Home';
-
+import "./App.css";
 const App = () => {
   return (
     <Router>
