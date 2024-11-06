@@ -40,35 +40,35 @@ const LinkBio: React.FC<LinkBioProps> = ({ Logo,
             <div className="space-y-3 w-full max-w-xs">
                 <div className="flex flex-row justify-between p-5 gap-5 bg-deep-purple-300 rounded-lg">
                     <button onClick={() => window.open(UrlFacebook, '_blank')} className="block  text-white py-2 rounded-lg text-start font-medium">
-                        Seguinos en Facebook
+                        Seguínos en Facebook
                     </button>
                     <FaFacebook size={30} color="white" />
                 </div>
                 <div className="flex flex-row justify-between p-5 gap-5 bg-deep-purple-300 rounded-lg">
 
                     <button onClick={() => window.open(UrlInstagram, '_blank')} className="block  text-white py-2 rounded-lg text-start font-medium">
-                        Seguinos en Instagram
+                        Seguínos en Instagram
                     </button>
                     <FaInstagram size={30} color="white" />
                 </div>
                 <div className="flex flex-row justify-between p-5 gap-5 bg-deep-purple-300 rounded-lg">
 
                     <button onClick={() => window.open(UrlTiktok, '_blank')} className="block  text-white py-2 rounded-lg text-start font-medium">
-                        Seguinos en Tiktok
+                        Seguínos en Tiktok
                     </button>
                     <FaTiktok size={30} color="white" />
                 </div>
                 <div className="flex flex-row justify-between p-5 gap-5 bg-deep-purple-300 rounded-lg">
 
                     <button onClick={() => window.open(UrlDirection, '_blank')} className="block  text-white py-2 rounded-lg text-start font-medium">
-                        Visitanos en nuestra tienda
+                        Visitános en nuestra tienda
                     </button>
                     <FaStoreAlt size={30} color="white" />
                 </div>
                 <div className="flex flex-row justify-between p-5 gap-5 shadow-md bg-deep-purple-300 rounded-lg">
 
                     <button onClick={() => window.open(UrlWhatsapp, '_blank')} className="block  text-white py-2  text-start font-medium">
-                        Consultá por nuestros productos
+                        Cotizá aquí
                     </button>
                     <FaWhatsapp size={30} color="white" />
                 </div>
