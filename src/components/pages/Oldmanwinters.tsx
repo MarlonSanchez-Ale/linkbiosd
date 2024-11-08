@@ -51,7 +51,7 @@ export default function Oldmanwinters() {
           UrlFacebook="https://www.facebook.com/oldmancwinters/"
           UrlInstagram="https://www.instagram.com/oldmanwinters_ni/"
           UrlTiktok="https://www.tiktok.com/@oldmanwinters_ni?is_from_webapp=1&sender_device=pc"
-          UrlWhatsapp="https://wa.link/wns27v"
+          UrlWhatsapp="https://wa.link/e75gdc"
           UrlDirection="https://maps.app.goo.gl/Lc1AjFH4DD17kT9j7"
         />
       </div>
